@@ -1,0 +1,40 @@
+# ID must be sequential. Beginning with 1, the next file will be 2.
+# The ID MUST BE UNIQUE. No two primary_items can share the same ID.
+id: 1
+# Should it be displayed - value is restricted to, 'yes' or 'no', 'true' or 'false', whichever makes most sense
+active: yes
+year: 2014
+# Case-sensitive.
+# Title will display exactly as entered here
+title: Aptly NaMeD
+# Select a particular primary_item to feature in this portfolio
+cover_image: 1
+# Idea, content, what's the point to having done this. One paragraph max
+description: Evocative description, I can really see that.
+
+# Primary Items: finished artworks for exhibition and or sale
+# Note: Items will displayed in the order they are listed here.
+# Please ensure the corresponding primary_item.yml file exists.
+# The image too, which will also share this id.
+primary_items:
+  - 1
+  - 4
+  - 3
+
+# Likewise, give the ID for each of the required secondary_item objects.
+# Secondary Items: additional assets [documents, images or videos] to enrich the experience of primary items
+commentaries:
+  - 1
+
+demonstrations:
+  - 1
+
+invites:
+  - 1
+
+interviews:
+  - 1
+
+studies:
+  - 1
+  - 2

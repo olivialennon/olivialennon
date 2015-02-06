@@ -1,0 +1,151 @@
+# Configure site options here;
+
+user: olivialennon
+# Define user input/output directories
+# source = input, build = output
+# either may be a dir within a github repository, s3 bucket etc.
+source_directory: source
+build_directory: build
+deploy_to: git_repository or S3 bucket
+
+# User profile
+# For site title and other site wide branding
+brand: olivia lennon
+
+givenName: olivia
+familyName: lennon
+subtitle: artist
+
+# Contact information
+#email: ENV['USER_EMAIL']
+# TODO be mindful of changes to network link structure
+social_profile:
+  # Other networks may be added as required
+  facebook:
+    network_url: https://facebook.com
+    # Allow visitors to follow you on this network. Yes/No
+    followable: yes
+    # Locate facebook ID here http://graph.facebook.com/*username
+    id: 100000371991869
+    name: Ollie Lennon
+    username: ollie.burge.5
+    #https://www.facebook.com/sharer/sharer.php?u=[URL]
+    share_link_prepend: https://www.facebook.com/sharer/sharer.php?u=
+
+  twitter:
+    network_url: https://twitter.com
+    # Allow visitors to follow you on this network. Yes/No
+    followable: yes
+    id: 1
+    # Note: YAML will not parse values beginning with '@' symbol.
+    # Ensure in such cases the symbol is preceded by an apostrophe.
+    name: olivialennon
+    username: '@olivialennon'
+    #https://twitter.com/share?url=[URL]
+    share_link_prepend: https://twitter.com/intent/tweet?url=
+
+  google:
+    network_url: https://plus.google.com
+    # Allow visitors to follow you on this network. Yes/No
+    followable: no
+    id: 1
+    name: olivialennon
+    username: olivialennon
+    #https://plus.google.com/share?url=[URL]
+    share_link_prepend: https://plus.google.com/share?url=
+
+# Domain information
+protocol: http://
+# Where is the site located?
+host: olivialennon.com
+
+# Search Engine Optimisation (SEO)
+# Provide a list of keywords applicable to the site content
+# NOTE: keep it relevant and do not add more than is necessary
+# !!Google and Bing ignore this tag.
+keywords:
+  - olivia lennon
+  - art
+  - artist
+  - emerging
+  - exhibit
+  - gallery
+  - culture
+  - contemporary
+  - drawing
+  - painting
+  - sydney
+  - australia
+  - female
+
+# Provide a description of the site's content
+# character limt: 155
+description: Portfolio of works by Sydney based emerging artist Olivia Lennon
+
+# Site author, give credit where it's due. I made this.
+author: daniel small
+
+# Determine appropriate creative commons license type here
+# http://creativecommons.org/licenses/
+licensing:
+  type: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
+  abbreviation: CC BY-NC-ND 4.0
+  url: http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+# Select a theme for the site:
+  # default
+  # dark
+  # custom
+# If custom, modify;
+# https://github.com/noname00000123/middleman-olivialennon/source/assets/stylesheets/shared/_variables.custom.scss
+theme: default
+
+# Supply the webfont service user ID, ie. Typekit
+#webfont_id: <%=ENV['TYPEKIT_ID']%>
+
+# Enable features
+enable_news: yes
+enable_contact_form: yes
+enable_subscription: yes
+enable_share_links: yes
+enable_rss: yes
+#enable_bio: yes
+#enable_statement: yes
+#enable_store: yes
+
+# Enable purchase with PayPal & Stripe.
+# Purchase buttons are disabled otherwise
+enable_trading: yes
+
+# payPal merchant ID
+#paypal_id: ENV['PAYPAL_MERCHANT_ID']
+# stripe merchant ID
+#stripe_id: ENV['STRIPE_KEY_TEST_PUBLIC']
+#easypost_id:
+# Message to display when an item is UNAVAILABLE
+action_prompt_unavailable: Item unavailable - sold
+# Message to display when item is AVAILABLE
+action_prompt_available: Purchase with #name of transaction service
+# Give the user an indication of what is about to happen
+action_text_available: Click here to be activate the checkout.
+address:
+  name: Olivia Lennon
+  company: Olivia Lennon
+  street_line_1: Level 1
+  street_line_2: 1 Street Avenue
+  city: Sydney
+  state: AU
+  postcode: 2000
+  # Provide a 2 character ISO country code.
+  country: AU
+  phone: 9999999999
+
+# Choose featured images (data/gallery/primary_items/...) and/or events (data/news/events/current/...) for display in key areas (ie. root page).
+# Accepts one(1) item ID (numeric value) only.
+featured_image: 1
+# Ensure event is current, select from files in data/news/events/current only.
+featured_event: 3
+
+# Google analytics tracking ID
+# analytics_tracking_id: ENV[GOOGLE_ANALYTICS_ID]
+

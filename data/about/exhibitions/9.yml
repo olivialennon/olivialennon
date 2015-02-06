@@ -1,0 +1,26 @@
+id: 9
+
+type: exhibition
+solo: no
+
+# yyyy-mm-dd hh:mm +0000
+start: 2012-12-13 00:00:00 +0000
+end: 2012-12-13 00:00:00 +0000
+
+title: 4A Members Show
+
+# In case of travelling exhibition or multiple displays
+location:
+  - place: 4A Gallery
+    abbreviation:
+    url: http://gallery.com
+    country: australia
+    city: sydney
+
+# (aka co-partcipants)
+collaborators:
+
+# Primary_items exhibited
+exhibited:
+  - 1
+  - 2

@@ -1,0 +1,26 @@
+id: 7
+
+type: exhibition
+solo: no
+
+# yyyy-mm-dd hh:mm +0000
+start: 2011-12-13 00:00:00 +0000
+end: 2011-12-13 00:00:00 +0000
+
+title: MONO
+
+# In case of travelling exhibition or multiple displays
+location:
+  - place: kaleidoscope gallery
+    abbreviation:
+    url: http://gallery.com
+    country: australia
+    city: sydney
+
+# (aka co-partcipants)
+collaborators:
+
+# Primary_items exhibited
+exhibited:
+  - 1
+  - 2

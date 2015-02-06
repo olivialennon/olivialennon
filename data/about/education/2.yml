@@ -1,0 +1,19 @@
+id: 1
+
+# yyyy-mm-dd hh:mm +0000
+start: 2010-12-13 00:00 +0000
+end: 2010-12-13 00:00 +0000
+
+degree:
+  - name: bachelor of fine arts(hons.)
+  - abbreviation: BFA(hons.)
+degree_link:
+
+institute:
+  - name: national art school
+  - abbreviation: NAS
+institute_link: http://www.nas.edu.au/
+
+city: sydney
+country: australia
+

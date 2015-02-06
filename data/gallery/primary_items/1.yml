@@ -1,0 +1,125 @@
+# ID must be sequential. Beginning with 1, the next file will be 2.
+# The ID MUST BE UNIQUE. No two primary_items can share the same ID.
+id: 1
+# Should it be displayed - value is restricted to, 'yes' or 'no', 'true' or 'false', whichever makes most sense
+active: yes
+
+# Feel free to use whatever ref numbers you want. Again, they should be unique, preferrably sequential.
+catalogue_ref: 00001
+artist: olivia lennon
+# Case-sensitive.
+# Title will display exactly as entered here
+title: Aptly Named
+# Numeric only
+year: 2014
+
+# Dimensions (numeric values only)
+# unit: centimetres
+# accuracry: 1.0 ie. 1.9 = 1.9cm = 19mm
+# Weight (numeric values only)
+# unit: grams
+# accuracy: 1 ie. 1000 = 1000g = 1kg
+actual_height: 20
+actual_width: 20
+actual_length: 10
+actual_weight: 1000
+
+# 'yes' or 'no', if no, no need to provide dimensions
+framed: no
+framed_height:
+framed_width:
+framed_length:
+framed_weight:
+
+shipping_height: 35
+shipping_width: 35
+shipping_length: 35
+shipping_weight: 1700
+
+materials:
+  - alizarin
+  - turquoise
+  - mihrr
+  - mead
+  - honey
+
+# Provenance
+collection:
+  - 1
+
+# What is it?
+description: Along the river ran a winding path, through and far the wilder ran. Solace sought a crying hearth.
+# Available; yes or no
+sold: no
+price: 100
+# Currency code
+currency: aud
+# Additional charges
+# Applicable tax rate, calculated at build stage according to item price
+# accepted format; floating point integer ie. 0.1
+tax_rate: 0.1
+# TODO shipping will be addressed in future changes, ignore unless you are super keen to sell and want the customer to pay shipping charges defined below
+# Standard shipping fees
+shipping_and_handling:
+  # Averaged rate
+  standard: 10
+  # Local rate
+  national: 10
+  # All other countries
+  international: 20
+# Quantity available
+qty: 1
+
+# Included in which exhibitions? List ID(s)
+exhibited:
+  - 1
+  - 2
+
+# Here we'll associate the primary_item with its file assets. You'll need to give the file ID and some metadata.
+assets:
+  # Give the ID of the original unmodified =
+  # Type(s): image
+  # Photograph of artwork in full
+  # QTY: One(1) only
+  original: 1
+
+  # Type(s): image(s)
+  # Macro photography
+  # QTY: Three(3) only
+  details:
+    # Define the metadata for each detail.
+    # Add a new numeric key for each item, as I have done below.
+    1:
+      filename: 1
+    # 2:
+      # filename: 2
+    # 3:
+      # filename: 5
+
+  # Note: Video content might serve either of two functions, defined as 'unveiling' and 'in abode'.
+  # in abode: Artwork aboding in a place
+  # unveiling: Exhibition shot
+  # A third type 'demonstration' is probably better associated with a Portfolio
+  # demonstration: techniques or insights particular to a body of work
+
+  # Type(s): video + image
+  # QTY: One(1) only
+  # video: uncompressed *.mpg original
+  videos:
+    # As we did for details, you will need to add a numeric key for each item.
+    1:
+      filename: 1
+      # unveiling, demonstration or exhibiton
+      function: unveiling
+      # describe the content
+      description: the video is going to play out your woe
+
+    2:
+      # image: uncompressed *.tiff original
+      # or
+      # video: uncompressed *.mpg original
+      filename: 2
+      # unveiling, demonstration or exhibiton
+      function: exhibition
+      # describe the content
+      description: the show was so

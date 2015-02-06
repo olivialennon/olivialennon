@@ -1,0 +1,12 @@
+id: 1
+
+name: ness
+surname: cassie
+link:
+
+# List the collaborated exhibtion(s)'s id
+exhibition:
+  - 10
+
+# List the collaborated primary_item(s)'s id (alias: artwork)
+primary_item:

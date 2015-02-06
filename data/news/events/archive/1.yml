@@ -1,0 +1,60 @@
+expires: 2014-09-10 18:00:00 +1000
+title: nox
+type: exhibition
+# (aka co-partcipants)
+collaborators:
+  - 1
+
+primary_items:
+  - 1
+  - 2
+  - 3
+featured_image: 1
+page: /gallery/2013/exhibitions/1-nox/
+
+start_date: 2014-08-04 18:00:00 +1000
+end_date: 2014-09-04 21:00:00 +1000
+opening: 2014-08-04 18:00:00 +1000
+event_page:
+  url: http://social/network.com/event
+  service: facebook
+
+location:
+  url: http://gallery.com
+  place: Gallery
+  address:
+    - 6 Brill St
+    - McGoven
+    - NSW
+    - 2044
+  city: sydney
+  country: australia
+  latitude: 33.33123123123
+  longitude: 33.33123123123
+  opening_hours:
+    day:
+      Monday:
+        open: 09:00:00 +1000
+        close: 18:00:00 +1000
+      Tuesday:
+        open: 09:00:00 +1000
+        close: 18:00:00 +1000
+      Wednesday:
+       open: 09:00:00 +1000
+       close: 18:00:00 +1000
+      Thursday:
+        open: 09:00:00 +1000
+        close: 18:00:00 +1000
+      Friday:
+        open: 09:00:00 +1000
+        close: 18:00:00 +1000
+      Saturday:
+        open: 09:00:00 +1000
+        close: 18:00:00 +1000
+      Sunday:
+        open: 12:00:00 +1000
+        close: 18:00:00 +1000
+  email: daniel@john.com
+  telephone: +61 6666 6666
+  # gallery's logo (path/to/image)
+  logo:

@@ -1,0 +1,43 @@
+id: 2
+
+type: exhibition
+solo: no
+
+# yyyy-mm-dd hh:mm +0000
+start: 2009-12-13 00:00:00 +1000
+end: 2009-12-13 00:00:00 +1000
+
+title: 20x20 Exchange Show
+
+# In case of travelling exhibition or multiple displays
+location:
+  - place: Curtin University
+    abbreviation:
+    url: http://gallery.com
+    country: australia
+    city: sydney
+  - place: RMIT
+    abbreviation: RMIT
+    url: http://gallery.com
+    country: australia
+    city: sydney
+  - place: national art school gallery
+    abbreviation: NAS Gallery
+    url: http://gallery.com
+    country: australia
+    city: sydney
+
+# (aka co-partcipants)
+collaborators:
+  - 1
+
+# Primary_items exhibited
+exhibited:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8

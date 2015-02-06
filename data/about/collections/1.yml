@@ -1,0 +1,23 @@
+# Format: [collection], [place, country], [year of purchase
+id: 1
+
+# yyyy
+year_acquired: 2014
+
+importance: 3
+
+owner: private owner
+owner_link:
+# Is the owner an individual or larger entity such as an major government collection or business?
+# Yes or no?
+individual: yes
+collection:
+  - name: private collection
+  - abbreviation:
+collection_link:
+
+city: sydney
+country: australia
+
+on_public_display: yes
+

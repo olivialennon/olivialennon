@@ -1,0 +1,13 @@
+id: 1
+
+# yyyy-mm-dd hh:mm +0000
+start: 2008-12-13 00:00 +0000
+end: 2008-12-13 00:00 +0000
+
+role:
+employer: employer
+employer_link: http://employer.com
+
+city: sydney
+country: australia
+

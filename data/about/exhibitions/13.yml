@@ -1,0 +1,27 @@
+id: 13
+
+type: exhibition
+solo: yes
+
+# yyyy-mm-dd hh:mm +0000
+start: 2014-03-13 00:00:00 +0000
+end: 2014-04-01 00:00:00 +0000
+
+title: nyx(oscillates)
+
+# In case of travelling exhibition or multiple displays
+location:
+  - place: Brand X
+    abbreviation:
+    url: http://gallery.com
+    country: australia
+    city: sydney
+
+# (aka co-partcipants)
+collaborators:
+
+# Primary_items exhibited
+exhibited:
+  - 2
+  - 3
+  - 4

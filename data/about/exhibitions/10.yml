@@ -1,0 +1,28 @@
+id: 10
+
+type: exhibition
+solo: no
+
+# yyyy-mm-dd hh:mm +0000
+start: 2013-12-13 00:00:00 +0000
+end: 2013-12-13 00:00:00 +0000
+
+title: NOX
+
+# In case of travelling exhibition or multiple displays
+location:
+  - place: newtown hub gallery
+    abbreviation:
+    url: http://gallery.com
+    country: australia
+    city: sydney
+
+# (aka co-partcipants)
+collaborators:
+  - 1
+
+# Primary_items exhibited
+exhibited:
+  - 1
+  - 2
+
